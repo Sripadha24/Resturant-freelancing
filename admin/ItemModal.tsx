@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { X, Upload, Check } from 'lucide-react';
-import { CATEGORIES } from '../constants';
+import { CATEGORIES } from '../constants.tsx';
 
 interface ItemModalProps {
   item?: any;

@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { View } from './types';
-import CustomerMenu from './customer/CustomerMenu';
-import AdminLogin from './admin/AdminLogin';
-import AdminDashboard from './admin/AdminDashboard';
+import { View } from './types.ts';
+import CustomerMenu from './customer/CustomerMenu.tsx';
+import AdminLogin from './admin/AdminLogin.tsx';
+import AdminDashboard from './admin/AdminDashboard.tsx';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>('customer');

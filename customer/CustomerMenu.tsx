@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
 import { ShoppingBag, Star, Info, ChevronRight, LayoutDashboard, Phone, MapPin, Clock, ArrowRight, Instagram, Facebook } from 'lucide-react';
-import { MOCK_MENU, CATEGORIES } from '../constants';
-import { Category, CustomerSubView } from '../types';
-import FoodCard from './FoodCard';
-import SpecialItems from './SpecialItems';
-import CategoryTabs from '../components/CategoryTabs';
+import { MOCK_MENU, CATEGORIES } from '../constants.tsx';
+import { Category, CustomerSubView } from '../types.ts';
+import FoodCard from './FoodCard.tsx';
+import SpecialItems from './SpecialItems.tsx';
+import CategoryTabs from '../components/CategoryTabs.tsx';
 
 interface CustomerMenuProps {
   onAdminClick: () => void;

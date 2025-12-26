@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Edit2, Trash2, Eye, EyeOff, Plus, Filter, LayoutGrid, List } from 'lucide-react';
-import { MOCK_MENU, CATEGORIES } from '../constants';
-import ItemModal from './ItemModal';
+import { MOCK_MENU, CATEGORIES } from '../constants.tsx';
+import ItemModal from './ItemModal.tsx';
 
 const MenuManager: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

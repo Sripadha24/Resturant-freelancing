@@ -13,8 +13,8 @@ import {
   Users,
   Layers
 } from 'lucide-react';
-import MenuManager from './MenuManager';
-import Sidebar from '../components/Sidebar';
+import MenuManager from './MenuManager.tsx';
+import Sidebar from '../components/Sidebar.tsx';
 
 interface AdminDashboardProps {
   onLogout: () => void;

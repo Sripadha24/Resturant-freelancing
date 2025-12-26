@@ -1,5 +1,5 @@
 
-import { MenuItem, Category } from './types';
+import { MenuItem, Category } from './types.ts';
 
 export const MOCK_MENU: MenuItem[] = [
   // FRIED RICE - VEG
